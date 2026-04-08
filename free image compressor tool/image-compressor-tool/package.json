@@ -1,0 +1,45 @@
+{
+  "name": "image-compressor-tool",
+  "version": "1.0.0",
+  "description": "A modern, clean React web application for compressing images in the browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "browser-image-compression": "^2.0.2",
+    "web-vitals": "^3.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "react",
+    "image-compression",
+    "browser",
+    "tool",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT"
+}
